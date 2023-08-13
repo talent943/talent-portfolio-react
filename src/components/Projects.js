@@ -29,7 +29,7 @@ const Projects = () => {
       img: portfolio,
       title: "Portfolio",
       desc: "My Portfolio website that showcase my skills. Built with Reactjs, Tailwind CSS, HTML, Javascript",
-      live: "https://get-inspirred.netlify.app/",
+      live: "https://2d33a6ee.talent-portfolio-react.pages.dev",
       code: "https://github.com/talent943/talent-portfolio-react",
     },
   ]; 
