@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { AiOutlineMenu, AiOutlineClose, AiOutlineColumnWidth } from "react-icons/ai";
+import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import Resume from "./Resume.pdf";
 import HeaderImg from "../assets/logo2.jpg";
 
