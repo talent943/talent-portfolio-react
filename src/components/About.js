@@ -12,14 +12,16 @@ const About = () => {
 
           <p className="pb-5">
             Hi, My Name Is Talent Pachena. I am a
-            FullStack Developer. I build beautifull websites and web applications with React and
+            FullStack Developer holding Bachelor of Science in Computing. I build beautifull websites and web applications with React and
             Tailwind CSS, Html, Django Framework, Python, Javascript, SQL, Postgresql, MERN stack
           </p>
+    
           <p className="pb-5">
             I am proficient in Frontend Developer skills like React.js, Axios, Tailwind CSS, SaSS, Css3.
           </p>
 
-          <p>In backend I know Python, Django Framework, RNode.js, Express.js, MongoDB, and Mongoose</p>
+          <p className="pb-5">In backend I know Python, Django Framework</p>
+          <p className="pb-5">I am currently learning Node.js, Express.js, MongoDB, and Mongoose</p>
         </div>
 
         <div className="about-img">

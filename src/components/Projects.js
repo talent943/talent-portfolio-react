@@ -1,38 +1,36 @@
 import React from "react";
-import cssProjects from "../assets/project1.png";
-import devlog from "../assets/project4.png";
-import getInspirred from "../assets/project5.png";
-import uilogs from "../assets/project6.png";
+import todo from "../assets/todo.png";
+import password from "../assets/password.png";
+import mannafalls from "../assets/mannafalls01.png";
+import portfolio from "../assets/talent-portfolio.png";
 
 const Projects = () => {
   const projects = [
     {
-      img: devlog,
-      title: "devlog",
-      desc: " A multi author blog. Built with Node.js, MongoDB, React, Redux and Tailwind CSS ",
-      live: "https://devlogg.onrender.com/",
-      code: "https://github.com/Coderamrin/devlog",
+      img: todo,
+      title: "TodoApp",
+      desc: " A To do App. Built with Django Framework, Python, React, html, Bootstrap, Javascript and CSS ",
+      code: "https://github.com/talent943/React-Django-To-Do-App",
     },
     {
-      img: uilogs,
-      title: "uilogs",
-      desc: "Free website template directory for SaaS and Degital Agency. Built with Bootstrap, JQuery and JavaScript",
-      live: "https://uilogs.xyz/",
-      code: "https://github.com/Coderamrin/html-templates",
+      img: password,
+      title: "PasswordGenerator",
+      desc: "Password Generator app. Built with Django Framework, Python, HTML, Bootstrap, CSS and JavaScript",
+      code: "https://github.com/talent943/django3-password-generator",
     },
     {
-      img: cssProjects,
-      title: "css projects",
-      desc: "Frontend Mentor challange directory, solved with vanilla CSS",
-      live: "https://build-10-css-projects.netlify.app/",
-      code: "https://github.com/Coderamrin/build-10-css-projects",
+      img: mannafalls,
+      title: "mannafalls",
+      desc: "Website for marketing batteries. Built with HTML, Javascript, Bootstrap and CSS",
+      live: "https://mannafallsbatterrie.pages.dev/about",
+      code: "https://github.com/talent943/mannafallsbatteriess",
     },
     {
-      img: getInspirred,
-      title: "get Inspirred",
-      desc: "Quote search app. Used Quotable API for the quotes and React, Redux on the frontend",
+      img: portfolio,
+      title: "Portfolio",
+      desc: "My Portfolio website that showcase my skills. Built with Reactjs, Tailwind CSS, HTML, Javascript",
       live: "https://get-inspirred.netlify.app/",
-      code: "https://github.com/Coderamrin/get-inspired",
+      code: "https://github.com/talent943/talent-portfolio-react",
     },
   ]; 
 
@@ -45,8 +43,8 @@ const Projects = () => {
           </h2>
 
           <p className="pb-5">
-            These are some of my best projects. I have built these with React,
-            MERN and vanilla CSS. Check them out.
+            These are some of my best projects. I have built these with Reactjs,
+            Django Framework, Python, Javascript and vanilla CSS. Check them out.
           </p>
         </div>
 

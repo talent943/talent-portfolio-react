@@ -1,6 +1,7 @@
 import React, { useState } from "react";
-import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
+import { AiOutlineMenu, AiOutlineClose, AiOutlineColumnWidth } from "react-icons/ai";
 import Resume from "./Resume.pdf";
+import HeaderImg from "../assets/logo2.jpg";
 
 const Header = () => {
   const [toggle, setToggle] = useState(false);
@@ -10,7 +11,12 @@ const Header = () => {
   return (
     <header className="flex justify-between px-5 py-2 bg-primary text-white fixed w-full z-10">
       <a href="/" className="logo text-2xl font-bold text-accent">
-        Talent Pachena
+      <img
+            src={HeaderImg}
+            alt="coding illustration"
+            className="lgw-[40%] md:ml-auto"
+            style={{ width: 250, height: 80 }}
+          />
       </a>
 
       {/* Desktop Nav */}

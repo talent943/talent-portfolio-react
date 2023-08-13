@@ -17,10 +17,13 @@ const Hero = () => {
           </h1>
 
           <p className="py-5">
-            I am proficient in JavaScript, React.js and Tailwind CSS, bootstrap for Frontend Developer
+            I hold Bachelor of Science in Computing
           </p>
           <p className="py-5">
-            I am proficient in Python, Django Framework, SQL, Postgresql, JavaScript, React.js and Tailwind CSS, html for FullStack Developer, Docker, git, gitlab, Agile methodology
+            and proficient in JavaScript, React.js and Tailwind CSS, bootstrap for Frontend Developer
+          </p>
+          <p className="py-5">
+            and also proficient in Python, Django Framework, SQL, Postgresql, JavaScript, React.js and Tailwind CSS, html for FullStack Developer, Docker, git, gitlab, Agile methodology
           </p>
 
           <div className="flex py-5 ">
