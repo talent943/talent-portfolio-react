@@ -23,7 +23,7 @@ const Projects = () => {
       title: "mannafalls",
       desc: "Website for marketing batteries. Built with HTML, Javascript, Bootstrap and CSS",
       live: "https://mannafallsbatterrie.pages.dev/about",
-      code: "https://github.com/talent943/mannafallsbatteriess",
+      code: "https://github.com/talent943/mannafallsbatteries",
     },
     {
       img: portfolio,
